@@ -150,7 +150,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 `💡 Tip: The dataset (amazon_music_clusters_all_methods.csv) must be in the same folder as enhanced_app.py.` 
 
 ### 📁 Project Structure
-
+```bash
 📁 amazon-music-clustering-dashboard/
 │
 ├── 📄 enhanced_app.py           # Main Streamlit dashboard (interactive UI)
@@ -171,7 +171,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 │
 └── 📂 assets/                   # Icons, logos, etc.
     └── logo.png
-
+```
 ---
 ## 📊 Sample Insights (From Real Data)
 
