@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+streamlit
+scipy
+
+#   pip install -r requirements.txt
+#   streamlit run enhanced_app.py
+
+#----------------------------------
+
+# streamlit run app.py
+# run_dashboard.bat
+# streamlit run enhanced_app.py --server.port 8502
