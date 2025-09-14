@@ -1,5 +1,7 @@
 # 🎧 Amazon Music Clustering Dashboard
+
 **Unsupervised Learning for Music Discovery & Playlist Intelligence**
+
 ` Transform raw audio data into intelligent music clusters — and build AI-powered playlists that feel human.`
 
 The Amazon Music Clustering Dashboard is an end-to-end unsupervised machine learning project designed to discover hidden patterns in music listening behavior using audio features like danceability, energy, valence, and tempo. Built for music analysts, data scientists, and streaming platform teams, this tool reveals how songs naturally group together — not by genre labels, but by how they sound.
