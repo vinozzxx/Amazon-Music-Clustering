@@ -1,8 +1,7 @@
-🎧 Amazon Music Clustering Dashboard
-Unsupervised Learning for Music Discovery & Playlist Intelligence
+### 🎧 Amazon Music Clustering Dashboard
+**Unsupervised Learning for Music Discovery & Playlist Intelligence**
 ` Transform raw audio data into intelligent music clusters — and build AI-powered playlists that feel human.`
 
-Project Overview
 The Amazon Music Clustering Dashboard is an end-to-end unsupervised machine learning project designed to discover hidden patterns in music listening behavior using audio features like danceability, energy, valence, and tempo. Built for music analysts, data scientists, and streaming platform teams, this tool reveals how songs naturally group together — not by genre labels, but by how they sound.
 
 Using K-Means, DBSCAN, and Hierarchical Clustering, we uncover 4–6 distinct musical “personas” across 95,000+ tracks — from chill acoustic ballads to high-energy dance anthems. The results are visualized through an interactive Streamlit dashboard, enabling users to explore clusters, generate smart playlists, search songs, and export insights — all without writing a single line of code.
@@ -18,7 +17,7 @@ This project demonstrates the full lifecycle of an unsupervised ML application:
 Perfect for building personalized recommendation engines, optimizing radio stations, or understanding listener segmentation in music streaming services.
 
 ---
-🎯 Goal
+## 🎯 Goal
 The primary goal is to automatically group similar songs into meaningful musical clusters based on their audio characteristics — and turn those clusters into actionable, user-friendly tools for music discovery and playlist generation.
 
 This enables:
@@ -30,7 +29,7 @@ Listeners to discover new music aligned with their sonic preferences — not jus
 
 ---
 
-📊 Dataset Insight
+## 📊 Dataset Insight
 The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched with:
 
 | **Feature Type**      | **Fields**                                                                                                              |
@@ -38,7 +37,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 | 🎵 **Audio Features** | `danceability`, `energy`, `loudness`, `speechiness`, `acousticness`, `instrumentalness`, `liveness`, `valence`, `tempo` |
 | 📑 **Metadata**       | `name_song`, `name_artists`, `genres`, `popularity_songs`, `duration_ms`, `explicit`                                    |
 | 🔖 **Cluster Labels** | `cluster (K-Means)`, `cluster_dbscan`, `cluster_hc (Hierarchical)`                                                      |
-| 👨‍🎤 **Artist Info** | `artist_popularity`, `follower_count`                                                                                   |
+| 👨‍🎤 **Artist Info**    | `artist_popularity`, `follower_count`                                                                                   |
 
 `💡 Key Insight: Songs are grouped not by human-assigned genres (which can be inconsistent), but by measurable sonic traits — revealing true musical DNA. `
 
@@ -74,7 +73,6 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 `All tools are open-source, Python-native, and optimized for data science workflows. `
 
-✨ Key Features
 ## 🚀 Key Features
 
 - **Multi-Algorithm Clustering** — Compare results from K-Means, DBSCAN, and Hierarchical Clustering side-by-side  
@@ -94,45 +92,45 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ## 🎛️ Dashboard Sections  
 
-### 1. 📈 Dataset Overview  
+# 1. 📈 Dataset Overview  
 - Total songs: **95,837**  
 - Unique artists: **17,662**  
 - Genres: **3,153 categories**  
 - Active clusters: *Dynamic based on selected method*  
 
-### 2. 🎯 Cluster Distribution  
+# 2. 🎯 Cluster Distribution  
 - Pie & bar charts showing **% distribution per cluster**  
 - Toggle between **K-Means, DBSCAN, and Hierarchical results**  
 - Filter clusters by **song count or dominance**  
 
-### 3. 🎵 Audio Feature Analysis  
+# 3. 🎵 Audio Feature Analysis  
 - **Box Plots** → See feature spread within each cluster *(e.g., “Is tempo really higher in Dance clusters?”)*  
 - **Radar Charts** → Compare cluster “sonic fingerprints” at a glance  
 - **Correlation Matrix** → Heatmap of feature interdependencies  
 - **PCA Scatter Plot** → 2D projection of clusters using principal components  
 
-### 4. 🎶 Smart Playlist Generator  
+# 4. 🎶 Smart Playlist Generator  
 - Select a cluster → Set **playlist size (1–50 songs)**  
 - Adjust **similarity threshold (0.7–1.0)** for tighter/fuzzier matches  
 - View **ranked songs with similarity scores**  
 - One-click **download as CSV**  
 
-### 5. 🔍 Search & Recommendations  
+# 5. 🔍 Search & Recommendations  
 - **Search Bar** → Find songs/artists instantly *(e.g., “Taylor Swift”, “Blinding Lights”)*  
 - **Similar Songs** → Click any song to see its **top 10 most similar neighbors**  
 - **Artist Profile** → See which clusters an artist appears in + their average audio score  
 
-### 6. 📥 Export & Reports  
+# 6. 📥 Export & Reports  
 - Export **filtered dataset** as CSV or JSON  
 - Save **generated playlists** as `.csv`  
 - Generate **one-click Summary Report** with stats: *mean, std, cluster sizes, dominant genres*  
 
 
-### 🚀 Quick Start
+## 🚀 Quick Start
 Prerequisites
 Python 3.8+
 pip package manager
-## 🚀 Getting Started  
+##  Getting Started  
 
 Follow these steps to set up and run the dashboard locally:  
 
@@ -175,7 +173,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
     └── logo.png
 
 ---
-### 📊 Sample Insights (From Real Data)
+## 📊 Sample Insights (From Real Data)
 
 - **High Speechiness ↔ Low Instrumentalness**  
   Confirms **Rap / Hip-Hop clusters** are driven by vocals rather than instruments.  
@@ -190,7 +188,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
   Unique tracks (e.g., experimental jazz, ambient noise) are separated, revealing **niche or non-mainstream clusters**.  
 
 
-### 🧪 Model Evaluation Metrics****
+## 🧪 Model Evaluation Metrics****
 
 | **Algorithm**    | **Silhouette Score** | **# Clusters** | **Key Takeaway**                                |
 | ---------------- | -------------------- | -------------- | ----------------------------------------------- |
