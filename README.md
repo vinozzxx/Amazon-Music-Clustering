@@ -1,4 +1,4 @@
-# 🎧 Amazon Music Clustering Dashboard
+# 🎧 Amazon Music Clustering
 
 **Unsupervised Learning for Music Discovery & Playlist Intelligence**
 
@@ -56,7 +56,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## 🛠 Tech Stack
 
@@ -87,7 +87,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 - **Real-Time Filtering** — Sliders and selectors update all visuals instantly — no page reload needed  
 - **Mobile-Friendly UI** — Fully responsive design works on desktop, tablet, and phone  
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## Dashboard  
 
@@ -99,7 +99,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
   ![Prediction Output](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/8fdaf7462b798658cc81c00fd08b09ec122e5080/dashboard_2.png)  
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## 🎛️ Dashboard Sections  
 
@@ -138,7 +138,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## 🚀 Quick Start
 Prerequisites
@@ -166,7 +166,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 
 ---
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ### 📁 Project Structure
 ```bash
@@ -219,7 +219,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 
 ---
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## 📄 License  
 
@@ -248,7 +248,7 @@ Built with ❤️ using industry-leading open-source tools:
 
 ---
 
-**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 ## ❓ FAQ  
 
@@ -277,7 +277,7 @@ Not 100%. Clustering is **unsupervised**, so it groups based on similarity, not 
 **Q7: License?**  
 MIT License — free to use and modify.  
 
-
+**[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
 
 
