@@ -93,19 +93,21 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 - **Overview**  
 
-  ![Dashboard](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%201.png)
+  ![Dashboard](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/1bb9a9da0ddaaec99fe676260d93cb5e588c0bbe/IMAGE%201%20.png)
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%202.png)
+  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/1bb9a9da0ddaaec99fe676260d93cb5e588c0bbe/IMAGE%202%20.png)
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%203.png)
+  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/1bb9a9da0ddaaec99fe676260d93cb5e588c0bbe/IMAGE%203.png)
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/12a5d8db62b3acbe111dfa385d863940d26e0976/IMAGE%204.png)
+  ![Prediction Output]()
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/12a5d8db62b3acbe111dfa385d863940d26e0976/IMAGE%205.png)
+  ![Prediction Output]()
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/12a5d8db62b3acbe111dfa385d863940d26e0976/IMAGE%206.png)
+  ![Prediction Output]()
 
-  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/12a5d8db62b3acbe111dfa385d863940d26e0976/IMAGE%207.png)
+  ![Prediction Output]()
+
+   ![Prediction Output]()
 
 **[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
