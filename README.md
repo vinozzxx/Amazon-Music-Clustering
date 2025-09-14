@@ -1,4 +1,4 @@
-# 🎧 Amazon Music Clustering
+# Amazon Music Clustering
 
 **Unsupervised Learning for Music Discovery & Playlist Intelligence**
 
