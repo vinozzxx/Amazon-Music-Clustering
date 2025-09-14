@@ -147,6 +147,7 @@ streamlit run enhanced_app.py
 ```
 Launch
 The app will open automatically at: (http://localhost:8501)[http://localhost:8502/]
+
 `💡 Tip: The dataset (amazon_music_clusters_all_methods.csv) must be in the same folder as enhanced_app.py.` 
 
 ### 📁 Project Structure
