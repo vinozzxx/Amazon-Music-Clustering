@@ -93,11 +93,12 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 - **Overview**  
 
-  ![Dashboard Overview](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/9304af28e53c9a5977a0a13a6adf85369c685521/dashboard_1.png)
+  ![Dashboard](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%201.png)
 
-- **Prediction Output**  
+  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%202.png)
 
-  ![Prediction Output](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/8fdaf7462b798658cc81c00fd08b09ec122e5080/dashboard_2.png)  
+  ![Prediction Output](https://github.com/vinozzxx/Amazon-Music-Clustering/blob/9e23d996bd06013060c6f0ac6363a49aa363899b/IMAGE%203.png)
+  
 
 **[`^        back to top        ^`](#Amazon-Music-Clustering)**
 
