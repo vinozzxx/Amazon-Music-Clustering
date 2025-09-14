@@ -20,6 +20,7 @@ Perfect for building personalized recommendation engines, optimizing radio stati
 
 ---
 ## 🎯 Goal
+
 The primary goal is to automatically group similar songs into meaningful musical clusters based on their audio characteristics — and turn those clusters into actionable, user-friendly tools for music discovery and playlist generation.
 
 This enables:
@@ -55,21 +56,20 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+
 ## 🛠 Tech Stack
 
-| **Category**            | **Tools**           | **Purpose**                                                      |
-| ----------------------- | ------------------- | ---------------------------------------------------------------- |
-| **Core Language**       | Python              | Primary scripting and logic engine                               |
-| **Data Manipulation**   | Pandas              | Loading, cleaning, filtering 95K+ rows                           |
-| **Numerical Computing** | NumPy               | Mathematical operations on audio features                        |
-| **Machine Learning**    | Scikit-learn        | K-Means, DBSCAN, Hierarchical Clustering, PCA, scaling           |
-| **Model Persistence**   | Pickle              | Saving trained clustering pipelines                              |
-| **Visualization**       | Plotly              | Interactive charts: radar plots, PCA scatter, heatmaps, boxplots |
-| **Dashboard**           | Streamlit           | Zero-code web app for real-time exploration                      |
-| **Optional Visuals**    | Matplotlib, Seaborn | Static EDA plots during development                              |
-
+- [**Python**](https://www.python.org/) – Core programming language for data analysis and modeling  
+- [**Pandas**](https://pandas.pydata.org/) – Data manipulation, cleaning, and wrangling  
+- [**NumPy**](https://numpy.org/) – Numerical computations and preprocessing  
+- [**Scikit-learn**](https://scikit-learn.org/stable/) – Machine learning models, preprocessing, and evaluation    
+- [**Matplotlib**](https://matplotlib.org/) / [**Seaborn**](https://seaborn.pydata.org/) – Data visualization and statistical plots  
+- [**Streamlit**](https://streamlit.io/) – Interactive web application for model deployment  
+- [**Pickle**](https://docs.python.org/3/library/pickle.html) – Model serialization and saving pipelines
 
 `All tools are open-source, Python-native, and optimized for data science workflows. `
+
 
 
 ## 🚀 Key Features
@@ -87,8 +87,19 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 - **Real-Time Filtering** — Sliders and selectors update all visuals instantly — no page reload needed  
 - **Mobile-Friendly UI** — Fully responsive design works on desktop, tablet, and phone  
 
----
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
 
+## Dashboard  
+
+- **Overview**  
+
+  ![Dashboard Overview](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/9304af28e53c9a5977a0a13a6adf85369c685521/dashboard_1.png)
+
+- **Prediction Output**  
+
+  ![Prediction Output](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/8fdaf7462b798658cc81c00fd08b09ec122e5080/dashboard_2.png)  
+
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
 
 ## 🎛️ Dashboard Sections  
 
@@ -127,6 +138,8 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+
 ## 🚀 Quick Start
 Prerequisites
 Python 3.8+
@@ -152,6 +165,8 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 `💡 Tip: The dataset (amazon_music_clusters_all_methods.csv) must be in the same folder as enhanced_app.py.` 
 
 ---
+
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
 
 ### 📁 Project Structure
 ```bash
@@ -204,6 +219,8 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 
 ---
 
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
+
 ## 📄 License  
 
 This project is licensed under the [MIT License](LICENSE).  
@@ -230,6 +247,8 @@ Built with ❤️ using industry-leading open-source tools:
 `“Streamlit lets data scientists focus on insights — not HTML.”` 
 
 ---
+
+**[`^        back to top        ^`](#Amazon-Music-Clustering-Dashboard)**
 
 ## ❓ FAQ  
 
