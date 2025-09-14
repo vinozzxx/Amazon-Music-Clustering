@@ -1,4 +1,4 @@
-### 🎧 Amazon Music Clustering Dashboard
+# 🎧 Amazon Music Clustering Dashboard
 **Unsupervised Learning for Music Discovery & Playlist Intelligence**
 ` Transform raw audio data into intelligent music clusters — and build AI-powered playlists that feel human.`
 
@@ -53,11 +53,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
-🛠️ Tech Stack
-
 ## 🛠 Tech Stack
-
-
 
 | **Category**            | **Tools**           | **Purpose**                                                      |
 | ----------------------- | ------------------- | ---------------------------------------------------------------- |
@@ -72,6 +68,7 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 
 `All tools are open-source, Python-native, and optimized for data science workflows. `
+
 
 ## 🚀 Key Features
 
@@ -90,41 +87,43 @@ The dataset contains 95,837 songs from Spotify/Amazon-style metadata, enriched w
 
 ---
 
+
 ## 🎛️ Dashboard Sections  
 
-# 1. 📈 Dataset Overview  
+### 1. 📈 Dataset Overview  
 - Total songs: **95,837**  
 - Unique artists: **17,662**  
 - Genres: **3,153 categories**  
 - Active clusters: *Dynamic based on selected method*  
 
-# 2. 🎯 Cluster Distribution  
+### 2. 🎯 Cluster Distribution  
 - Pie & bar charts showing **% distribution per cluster**  
 - Toggle between **K-Means, DBSCAN, and Hierarchical results**  
 - Filter clusters by **song count or dominance**  
 
-# 3. 🎵 Audio Feature Analysis  
+### 3. 🎵 Audio Feature Analysis  
 - **Box Plots** → See feature spread within each cluster *(e.g., “Is tempo really higher in Dance clusters?”)*  
 - **Radar Charts** → Compare cluster “sonic fingerprints” at a glance  
 - **Correlation Matrix** → Heatmap of feature interdependencies  
 - **PCA Scatter Plot** → 2D projection of clusters using principal components  
 
-# 4. 🎶 Smart Playlist Generator  
+### 4. 🎶 Smart Playlist Generator  
 - Select a cluster → Set **playlist size (1–50 songs)**  
 - Adjust **similarity threshold (0.7–1.0)** for tighter/fuzzier matches  
 - View **ranked songs with similarity scores**  
 - One-click **download as CSV**  
 
-# 5. 🔍 Search & Recommendations  
+### 5. 🔍 Search & Recommendations  
 - **Search Bar** → Find songs/artists instantly *(e.g., “Taylor Swift”, “Blinding Lights”)*  
 - **Similar Songs** → Click any song to see its **top 10 most similar neighbors**  
 - **Artist Profile** → See which clusters an artist appears in + their average audio score  
 
-# 6. 📥 Export & Reports  
+### 6. 📥 Export & Reports  
 - Export **filtered dataset** as CSV or JSON  
 - Save **generated playlists** as `.csv`  
 - Generate **one-click Summary Report** with stats: *mean, std, cluster sizes, dominant genres*  
 
+---
 
 ## 🚀 Quick Start
 Prerequisites
@@ -150,6 +149,8 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 
 `💡 Tip: The dataset (amazon_music_clusters_all_methods.csv) must be in the same folder as enhanced_app.py.` 
 
+---
+
 ### 📁 Project Structure
 ```bash
 📁 amazon-music-clustering-dashboard/
@@ -174,6 +175,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
     └── logo.png
 ```
 ---
+
 ## 📊 Sample Insights (From Real Data)
 
 - **High Speechiness ↔ Low Instrumentalness**  
@@ -188,6 +190,7 @@ The app will open automatically at: (http://localhost:8501)[http://localhost:850
 - **DBSCAN Identifies Outliers**  
   Unique tracks (e.g., experimental jazz, ambient noise) are separated, revealing **niche or non-mainstream clusters**.  
 
+---
 
 ## 🧪 Model Evaluation Metrics****
 
@@ -225,6 +228,7 @@ Built with ❤️ using industry-leading open-source tools:
 `“Streamlit lets data scientists focus on insights — not HTML.”` 
 
 ---
+
 ## ❓ FAQ  
 
 **Q1: Why clustering for music data?**  
@@ -251,6 +255,7 @@ Not 100%. Clustering is **unsupervised**, so it groups based on similarity, not 
 
 **Q7: License?**  
 MIT License — free to use and modify.  
+
 
 
 
